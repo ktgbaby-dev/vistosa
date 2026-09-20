@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#000000">
+<title>Contact — Vistosa The Brand</title>
+<meta name="description" content="Commission a hand-dyed piece or ask a question. Contact Vistosa The Brand by email, phone or Instagram.">
+
+<link rel="icon" type="image/png" href="assets/vistosa-logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="nav-brand" aria-label="Vistosa The Brand, home">
+      <img src="assets/vistosa-logo-white.png" alt="Vistosa The Brand" class="nav-logo" width="426" height="204">
+    </a>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-links">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<main>
+
+  <!-- PAGE HERO (black) -->
+  <section class="page-hero section-black">
+    <div class="container narrow">
+      <span class="label">Contact</span>
+      <h1>Let's make something</h1>
+      <p style="margin-top:20px;">Want a piece made for you, or have a question? Write, call or message us. We'd love to hear from you.</p>
+    </div>
+  </section>
+
+  <!-- DETAILS + FORM (white) -->
+  <section class="section section-white">
+    <div class="container contact-grid">
+
+      <div>
+        <ul class="contact-list">
+          <li>
+            <span class="label">Email</span>
+            <a href="mailto:favourpj3@gmail.com">favourpj3@gmail.com</a>
+          </li>
+          <li>
+            <span class="label">Phone</span>
+            <a href="tel:+2347061190890">+234 706 119 0890</a>
+          </li>
+          <li>
+            <span class="label">Instagram</span>
+            <!-- PLACEHOLDER: replace INSTAGRAM_HANDLE in the href and [INSTAGRAM HANDLE] in the text with the real handle -->
+            <a href="https://instagram.com/INSTAGRAM_HANDLE" target="_blank" rel="noopener">[INSTAGRAM HANDLE]</a>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <h2>Send a message</h2>
+        <p class="form-note">This opens your email app with your message ready to send.</p>
+
+        <form id="contact-form">
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="btn">Send message</button>
+          <p id="form-status" class="form-status" role="status"></p>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <a href="index.html" aria-label="Vistosa The Brand, home">
+      <img src="assets/vistosa-logo-white.png" alt="Vistosa The Brand" class="footer-logo" width="426" height="204">
+    </a>
+    <ul class="footer-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <p class="footer-note">&copy; 2026 Vistosa The Brand</p>
+    <div class="powered-by">
+      <span>Powered by</span>
+      <img src="assets/powered-by-logo.png" alt="K logo">
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
