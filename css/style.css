@@ -241,13 +241,13 @@ p + p { margin-top: 1.1em; }
 }
 
 .hero-logo {
-  width: min(560px, 88%);
+  width: min(460px, 78%);
   height: auto;
 }
 
 .hero h1 {
   max-width: 900px;
-  font-size: clamp(2.1rem, 5.2vw, 3.3rem);
+  font-size: clamp(1.8rem, 4.3vw, 2.75rem);
 }
 
 .hero-sub {
@@ -273,6 +273,22 @@ p + p { margin-top: 1.1em; }
 .lead {
   font-size: 1.2rem;
   line-height: 1.8;
+  text-wrap: pretty;
+}
+
+.closing-line {
+  margin-top: 30px;
+  font-size: 1.15rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+@media (min-width: 901px) {
+  .section-photo .narrow { max-width: 880px; }
+  .section-photo h2 {
+    font-size: clamp(2.1rem, 3.4vw, 2.8rem);
+    white-space: normal;
+  }
 }
 
 /* ---------- Points / steps ---------- */
@@ -336,6 +352,7 @@ p + p { margin-top: 1.1em; }
   text-transform: uppercase;
   letter-spacing: 0.22em;
   line-height: 1.6;
+  text-wrap: pretty;
 }
 
 @media (max-width: 900px) {
